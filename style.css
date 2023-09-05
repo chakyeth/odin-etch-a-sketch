@@ -1,0 +1,53 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  gap: 8px;
+  background: white;
+  align-items: center;
+}
+
+.wrapper {
+  border: 75px solid darkred;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.grid-container {
+  display: inline-grid;
+  background-color: white;
+  border: 5px solid white;
+  height: 550px;
+  width: 550px;
+}
+
+.cell {
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  border: 0px;
+  border-radius: 12px;
+  padding: 5px 10px;
+  background: lightblue;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button:active {
+  background: slategrey;
+}
